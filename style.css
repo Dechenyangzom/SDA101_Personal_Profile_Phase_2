@@ -156,11 +156,12 @@
     }
 
     nav ul {
+        align-items: center;
         gap: 10px;
       }
 
     nav li {
-        margin: 0;
+        margin: 5px 0;
         display: flex;
     }
 
