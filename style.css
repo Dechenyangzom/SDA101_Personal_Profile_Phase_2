@@ -151,42 +151,34 @@
   }
   
   @media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
     nav ul {
-      align-items: center;
-      gap: 10px;
-    }
-    
-    .service-card {
-      width: 90%;
-    }
-  }
+        gap: 10px;
+      }
 
-  .footer {
-    text-align: center;
-    color: black;
-    margin-top: 50px;
-  }
-
-  @media (max-width: 768px) {
     nav li {
+        margin: 0;
         display: flex;
-        margin: 10px 0;
     }
 
     .header img {
         width: 100%;
         height: auto;
-        float: none;
+        float: right;
     }
 
     .about-me img {
         width: 100%;
         height: auto;
-        float: none;
+        float: left;
     }
 
-    .service-card {
+    .service {
         text-align: center;
+        width: 90%;
     }
 
     .skills {
@@ -202,14 +194,10 @@
         margin-bottom: 10px;
         width: 100%;
     }
-}
 
-@media (max-width: 480px) {
-    nav {
+    .footer {
         text-align: center;
-    }
-
-    nav li {
-        margin: 5px 0;
-    }
+        color: black;
+        margin-top: 50px;
+      }
 }
